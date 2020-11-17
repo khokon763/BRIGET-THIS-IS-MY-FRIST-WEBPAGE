@@ -1,0 +1,1187 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+	font-family: Agency FB;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: Agency FB;
+}
+#mainHeadDiv{
+	background: #80808012;
+	border-bottom:1px solid #8080801c;
+	overflow: hidden;
+	max-width: 100%;
+}
+
+#HeadSubdiv{
+	width: 1156px;
+	overflow: hidden;
+	margin:auto;
+}
+
+#HeadSubdiv1content{
+   width: 1061px;
+   float: left;
+}
+#HeadSubdiv1content a{
+   text-decoration: none;
+   color:black;
+   font-size: 13px;
+   font-family: 'Work Sans', sans-serif;
+
+}
+#HeadSubdiv1content span{
+  color:red;
+
+}
+
+#HeadSubdiv2content{
+   width: 95px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   float: right;
+}
+
+#content1{
+   width: 177px;
+   padding-top: 10px;
+   float: left;
+   padding-left: 10px;
+   border-left: 1px solid #cfcfcf;
+   padding-bottom: 10px;
+}
+
+#content2{
+   width: 860px;
+   border-left: 1px solid #cfcfcf;
+   float: right;
+   padding-top: 10px;
+   padding-left: 10px;
+   padding-bottom: 10px;
+}
+div#content3 {
+    float: right;
+}
+
+#Menu_icon{
+	list-style: none;
+
+}
+
+#Menu_icon li{
+	float:left;
+
+}
+
+#Menu_icon li a{
+	padding-top:13px;
+	padding-bottom:13px;
+	padding-left:8px;
+	padding-right:8px;
+	border-left:1px solid #00000029;
+	font-size: 14px;
+
+
+}
+
+#Menu_icon li a:hover{
+	color:red;
+	transition: 0.5s;
+
+}
+
+div#container {
+    width: 1146px;
+    margin: auto;
+    padding: 10px 5px 5px 5px;
+    overflow: hidden;
+}
+
+div#logo {
+    width: 140px;
+    float: left;
+    padding: 10px 0px 0px 0px;
+}
+div#menubar {
+    width: 1006px;
+    float: right;
+    background: white;
+}
+
+ul#Primarymenu {
+    list-style-type: none;
+}
+
+#Primarymenu li {
+float:left
+
+}
+#Primarymenu li a {
+    text-decoration: none;
+    display: block;
+    padding: 20px 25px;
+    color: black;
+    font-family: Agency FB;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 0px;
+
+}
+#Primarymenu li a:hover i {
+	transform: rotate(180deg);
+	transition:0.5s;
+}
+
+div#Submenubar {
+    width: 700px;
+    overflow: hidden;
+    float: right;
+}
+ul#subPrimarymenu {
+    list-style: none;
+    border-top: 1px solid #ffbc00;
+    width: 200px;
+    position: absolute;
+    top: 112px;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: all 1s;
+    background: white;
+    z-index: 1;
+}
+
+#Primarymenu li:hover #subPrimarymenu{
+transform: scaleY(1);
+
+}
+ul#subPrimarymenu li{
+	float:none;
+}
+ul#subPrimarymenu li a:hover{
+	padding-left: 50px;
+	transition: 1s;
+    color:red;
+}
+
+/*Top head section total ending */
+
+.sliderSection {
+	background: url(../Images/slide-1.jpg);
+	height: 540px;
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+div#slidersectionWraper {
+    position: relative;
+    width: 1150px;
+    margin: auto;
+    height: 100%;
+}
+
+div#sliderSectioncontent {
+    width: 345px;
+    position: absolute;
+    top: 170px;
+    left: 0px;
+}
+div#sliderSectioncontent h2 {
+    font-family: Agency FB;
+    font-size:37px;
+    color:white;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+div#sliderSectioncontent p {
+    font-family: Agency FB;
+    font-size:13px;
+    color:white;
+    padding-bottom: 45px;
+    font-weight: bold;
+}
+div#sliderSectioncontent button {
+    font-family: Agency FB;
+    font-size: 15px;
+    border-radius: 5px;
+    width: 130px;
+    color: white;
+    font-weight: bold;
+    background: red;
+    padding: 10px 10px;
+    border: none;
+    outline: none;
+}
+div#sliderSectioncontent button:hover {
+	background: black;
+	color:white;
+	cursor:pointer;
+	transition: 1s;
+}
+div#sliderbutton {
+    width: 42px;
+    padding: 5PX;
+    position: absolute;
+    top: 495px;
+    left: 50%;
+}
+div#SliderCircle {
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid red;
+    float: left;
+    width: 15px;
+}
+div#SliderCircle2 {
+    height: 19px;
+    border-radius: 50%;
+    background: red;
+    width: 19px;
+    float: right;
+}
+/* This is service section start*/
+section#SrviceSection {
+    padding: 80px 0px;
+    overflow: hidden;
+    background: #f5f6f6;
+}
+
+div#blockdiv {
+    width: 233px;
+    background: white;
+    text-align: center;
+    padding: 5px;
+    font-family: Agency FB;
+    margin-right: 32px;
+    float: left;
+}
+div#blockdiv h1{
+    padding: 15px 0px 15px 0px;
+}
+div#blockdiv p{
+    padding: 0px 15px 0px 15px;
+}
+
+div#blockdivIcon {
+    padding: 30px 0px 0px 0px;
+    font-size: 35px;
+    color: red;
+}
+
+
+#blockdivcontent1 a{
+	color:red;
+	text-decoration: none;
+	font-family: Agency FB;
+	display: block;
+	padding: 15px 0px 30px  0px;
+}
+
+
+
+div#blockdiv:hover{
+  background: red;
+  color:white;
+  cursor:pointer;
+
+}
+div#blockdiv:hover div#blockdivIcon{
+  color:white;
+
+}
+
+
+div#blockdiv:hover a{
+  color:white;
+
+}
+div#cotainer2 {
+    width: 1100px;
+    margin: auto;
+    overflow: hidden;
+}
+/* This is service section end*/
+
+
+/* This is Team Sention start*/
+section#WorkWithOurTeam {
+    padding: 80px 0px;
+}
+#SectionContainer3{
+	width: 1100px;
+	margin: auto;
+	overflow: hidden;
+}
+
+div#imageContent {
+    width: 520px;
+    float: left;
+    height: 420px;
+}
+div#imageContent img {
+    width: 100%;
+    height: 100%;
+}
+div#WorkWithOurTeamContent{
+	width: 460px;
+	height: 420px;
+	float: right;
+	padding: 0px 60px 0px 60px;
+	background: linear-gradient(45deg, #f5f6f6, transparent);
+}
+
+div#WorkWithOurTeamContent h1 {
+    font-size: 35px;
+    color: #107f98;
+    padding: 15px 0px;
+    font-family: arial;
+}
+div#WorkWithOurTeamContent p{ 
+    padding: 10px 78px 10px 0px;
+}
+div#TeamContentSubdiv {
+    overflow: hidden;
+    padding: 10px 0px;
+}
+
+ul#paimaryContent {
+    list-style: none;
+    width: 230px;
+    float: left;
+    padding: 10px 0px;
+}
+ul#paimaryContent a{
+  text-decoration:none;
+  display: block;
+  padding: 5px 0px;
+  color:black;
+}
+
+ul#paimaryContent a i{
+	font-size: 12px;
+}
+
+ul#paimaryContent2 {
+    list-style: none;
+    width: 150px;
+    float: right;
+    padding: 10px 35px;
+}
+ul#paimaryContent2 a{
+  text-decoration:none;
+  display: block;
+  padding: 5px 0px;
+  color:black;
+
+}
+ul#paimaryContent2 a i{
+    font-size: 12px;
+}
+
+ul#paimaryContent a:hover{
+	padding-left:10px;
+	color:red;
+	transition: 0.5s;
+
+}
+
+ul#paimaryContent2 a:hover{
+	padding-left:10px;
+	color:red;
+	transition: 0.5s;
+
+}
+
+#TeamContentButton{
+	padding: 30px 0px;
+}
+
+#TeamContentButton button{	
+	padding: 10px 10px;	
+	background: red;
+	border-radius: 5px;
+	color: white;	
+	outline: none;	
+	width: 130px;	
+	font-family: Agency FB;	
+	font-size: 15px;	
+	font-weight: bold;	
+	border: none;
+}
+#TeamContentButton button:hover{		
+   background: linear-gradient(to right,blue,#ff008d);   
+   cursor:pointer;	
+}
+/* This is Team Section end*/
+
+
+
+/* This is Archivement  Section start*/
+#ArchivementSection{
+	background:linear-gradient(#00000073,#00000073), 
+	linear-gradient(#00000073,#00000073), url(../Images/why-choose-us1.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	padding: 80px 0px;
+}
+#ArchivementControl{
+    width: 1100px;
+    margin: auto;
+    overflow: hidden;
+}
+#ArchivementWraper {
+    width: 220px;
+    text-align: center;
+    padding: 15px 15px;
+    float: left;
+    margin-left: 20px;
+    color: white;
+}
+
+#ArchivementWraper i {
+   font-size: 40px;
+   color: #00dcff;
+}
+#ArchivementWraper h1{
+	font-size: 45px;
+	padding: 15px 0px;
+	font-weight: bold;
+	font-family: arial;
+} 
+
+#ArchivementWraper h3{
+	letter-spacing: 2px;
+    padding: 5px 0px;
+}
+/* This is Archivement  Section end*/
+
+
+
+/* This is More Form Us  Section start*/
+section#MoreForUsSection {
+    padding: 30px 0px;
+}
+div#MoreForUsWraper {
+    width:1150PX;
+    margin: auto;
+}
+
+div#MoreForUsContent {
+    text-align: center;
+    margin: auto;
+    width: 440px;
+    position: relative;
+    padding: 10px;
+}
+
+div#MoreForUsContent h1 {
+    padding: 20px 0px;
+    font-size: 31px;
+    font-family: arial;
+}
+div#MoreForUsContent span:before{
+	content: '';
+	width: 70px;
+	border-radius: 5px;
+	height: 3px;
+	top: 74px;
+	position: absolute;
+	left: 191px;
+	background: red;
+}
+
+div#MoreForUsContent p{
+      padding: 5px;
+}
+div#BlockContentWraper {
+    padding: 80px 0px;
+    height: 330px;
+    width: 1150px;
+    margin: auto;
+}
+
+#ourMember{
+    width: 260px;
+    border: 1px solid #f5f6f6;
+    float: left;
+    margin: 9px;
+    box-shadow: 0 4px 8px 0  rgba(0,0,0,1.4);
+}
+#MenberImage{
+    width: 100%;
+    height: 200px;
+
+}
+#MenberImage img{
+   width: 100%;
+   height: 100%;
+
+}
+
+#ourMember h3{
+   padding: 20px 10px;
+}
+
+#ourMember p{
+	padding:0px 30px 10px 10px;
+
+}
+div#BlockContentWraper:hover #ourMember{
+	transform: rotate(0deg);
+
+}
+/* This is More From Us  Section end*/
+section#PrisePlanSection {
+    background: #f5f6f6;
+}
+#PrisePlanWraper{
+	width: 1150px;
+	margin:auto;
+}
+div#planerBlockControl {
+    overflow: hidden;
+    padding: 20px 0px 80px 0px;
+}
+#PlanerBlock{
+	margin: 18px;
+	float:left;
+	padding: 25px;
+	width: 295px;
+	background: white;
+	border: 1px solid #5600ff3b;
+}
+#PlanerBlock h3{
+   padding: 5px 0px;
+   font-size: 30px;
+}
+#PlanerBlock h1{
+	padding: 5px 0px;
+	font-size: 40px;
+}
+#PlanerBlock ul{
+
+	list-style: none;
+}
+#PlanerBlock ul li{
+	padding: 8px 0px;
+	font-size: 19px;
+	color: #020202e3;
+}
+#PlanerBlock ul li i{
+font-size: 14px;	
+color: red;
+}
+
+#PlanerButton{
+	padding: 10px 0px;
+}
+#PlanerButton button{
+	padding: 10px 20px;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+	background: red;
+	font-size: 17px;
+	color: white;
+}
+#PlanerButton button:hover{
+   background: black;
+   cursor:pointer;
+}
+section#projectPlan {
+     overflow: hidden; 
+}
+#projectImage {
+    background: url(../Images/s02.jpg);
+    width: 50%;
+    height: 500px;
+    background-size: cover;
+    float: left;
+    background-repeat: no-repeat;
+}
+div#projectcontent {
+    height: 500px;
+    width: 50%;
+    background: black;
+    float: right;
+}
+div#ContentWraper {
+    padding: 0px 50px;
+}
+div#WraperHead {
+    padding: 30px 0px;
+}
+div#WraperHead h1{
+    font-size: 29px;
+    color: white;
+    padding: 5px 0px;
+}
+div#WraperHead p{
+    width: 347px;
+    padding: 5px 0px;
+    color:white;
+}
+div#contentValue {
+    overflow: hidden;
+}
+div#contentValueIcon {
+    float: left;
+    color: #ff6409;
+    font-size: 35px;
+    display: inline-block;
+    padding: 18px;
+}
+div#ContentElement {
+    color: white;
+    width: 471px;
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+div#ContentElement h1{
+
+padding: 5px 0px;
+}
+div#ContentElement p{
+
+}
+section#OurTeemSectionImage {
+    overflow: hidden;
+    padding: 50px 0px;
+}
+
+div#TeemSectionWraper {
+    width: 1150px;
+    margin: auto;
+}
+div#TeemSectionBlock {
+    width: 270px;
+    float: left;
+    margin: 8px;
+}
+div#BlockImageWraper {
+    overflow: hidden;
+}
+#TeemMemberImage{
+	height: 270px;
+	position: relative;
+}
+
+#TeemMemberImage img{
+	width: 100%;
+	height: 100%;
+}
+div#TeemMenberBio {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #eeeeeea6;
+    border-top: none;
+}
+div#TeemMenberBio p{
+    padding: 5px 0px;
+}
+div#JoinOurTeemButton {
+    text-align: center;
+}
+div#SectonButton {
+    text-align: center;
+    padding-top: 25px;
+}
+div#SectonButton button {
+    padding: 10px 27px;
+    background: black;
+    color: white;
+    border: none;
+    outline: none;
+    font-family: agency fb;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: bold;
+}
+div#SectonButton button:hover {
+    background: red;
+    transition:0.5s;
+    cursor:pointer;
+
+}
+
+.imgSocialicons {
+    position: absolute;
+    width: 155px;
+    bottom: 40px;
+    text-align: center;
+    left: 50%;
+    transform: translatex(-50%);
+}
+.imgSocialicons a {
+    width: 18px;
+    height: 18px;
+    float: left;
+    overflow: hidden;
+    background: red;
+    display: grid;
+    text-decoration: none;
+    border-radius: 100%;
+    padding: 5px;
+    color: white;
+    margin: 5px;
+    transition: 0.3s;
+}
+.imgSocialicons a:first-child {
+    background: #3a6bb1;
+    opacity: 0;
+    transition: 0.8s;
+}
+.imgSocialicons a:nth-child(2) {
+    background-color: #0ec8f5;
+    opacity: 0;
+    transition: 0.6s;
+}
+.imgSocialicons a:nth-child(3) {
+    background-color: #f2623b;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.imgSocialicons a:last-child {
+    background-color: #0094d3;
+    opacity: 0;
+    transition: 0.2s;
+}
+
+.imgSocialicons a:hover{
+    background-color: white;
+    color: #333333;
+    
+}
+
+
+#TeemMemberImage:hover .imgSocialicons a:first-child{
+    transform: translateY(20px);
+    opacity: 1;
+}
+#TeemMemberImage:hover .imgSocialicons a:nth-child(2){
+    transform: translateY(20px);
+    opacity: 1;
+}
+#TeemMemberImage:hover .imgSocialicons a:nth-child(3){
+    transform: translateY(20px);
+    opacity: 1;
+}
+#TeemMemberImage:hover .imgSocialicons a:last-child{
+    transform: translateY(20px);
+    opacity: 1;
+}
+
+/*This is Our Best Project start*/
+section#OurBestProject {
+    background: #f5f6f6;
+}
+div#BestProjectWraper {
+    width: 1150px;
+    margin: auto;
+}
+div#projectBlockWraper {
+    padding: 40px 0px;
+    overflow: hidden;
+}
+#projectBlock{
+	height: 285px;
+	width: 355px;
+	margin: 10px;
+	float: left;
+	position: relative;
+	overflow: hidden;
+	border: 1px solid #c3c3c3;
+}
+#projectBlock img{
+	height: 100%;
+	width: 100%;
+}
+#ProjectInformation{
+	position:absolute;
+	top: 158px;
+	padding: 0px 30px 95px 30px;
+    background: linear-gradient(#0000000d,#000000ab,#000000b0);
+	transition: 0.3s;
+}
+#projectBlock:hover #ProjectInformation{
+	top:110px;
+
+}
+#ProjectInformation p{
+	color: white;
+	text-decoration: underline;
+	font-size: 12px;
+	font-weight: bold;
+}
+#ProjectInformation h1{
+	color: white;
+	padding: 15px 0px;
+}
+#ProjectLearnMoreButton{
+	position: absolute;
+	left: -63px;
+	width: 56%;
+	top: 212px;
+}
+#ProjectLearnMoreButton a{
+	font-weight: bold;
+	color:white;
+	text-decoration: none;
+}
+#ProjectLearnMoreButton a:hover{
+	color:#00dcff;
+}
+#projectBlock:hover #ProjectLearnMoreButton a{
+		padding-left: 93px;
+		display: block;
+	    transition: 0.5s;
+}
+div#OunLatestNewsWraper {
+    width: 1150px;
+    margin: auto;
+    overflow: hidden;
+}
+div#NewsBlockWraper {
+    width: 353px;
+    float:left;
+    margin: 15px;
+}
+
+
+
+section#OunLatestNews {
+    padding:50px 0px 250px 0px;
+}
+div#NewsBlockImage {
+    height: 269px;
+    overflow: hidden;
+    width: 100%;
+}
+div#NewsBlockImage img{
+    height: 100%;
+    width: 100%;
+    transition:0.3s;
+}
+div#NewsBlockImage:hover img{
+    transform: scale(1.1);
+	
+}
+div#NewsContentWraper {
+    padding: 25px 25px;
+    border: 1px solid #dedede;
+    border-top: none;
+}
+div#NewsContentWraper p{
+	color: #000000c9;
+	padding: 20px 0px;
+	font-size: 15px;
+	padding-right: 37px;
+	font-family: arial;
+}
+div#NewsReadMoreButton a{
+	text-decoration:none;
+	color:red;
+	font-family:arial;
+	font-weight: bold;
+	font-size:13px;
+}
+/*This is Our Best project Section end*/
+#Allfootercontent{
+	background: black;
+	height: 570px;
+	position: relative;
+}
+#FooterContainer{
+	width: 1150px;
+	margin:auto;
+	position: relative;
+}
+#TopLinksWraper{
+	background: #ff6a00;
+	padding: 20px 0px 25px 0px;
+	overflow: hidden;
+	top: -80px;
+	position: absolute;
+}
+div#ChildSubscirbNow {
+    width: 360px;
+    position: relative;
+    float: left;
+    padding: 20px 20px;
+}
+div#ChildSubscirbNow h1{
+    font-family:arial;
+    font-size: 23px;
+    color: white;
+}
+#SubscribeText input {
+    width: 65%;
+    height: 30px;
+    border-radius: 17px;
+    padding-left: 18px;
+    border: none;
+    outline: none;
+}
+#SubscribeButton button {
+    width: 85px;
+    height: 30px;
+    background: black;
+    color: white;
+    border-radius: 17px;
+    border: none;
+    outline: none;
+    top: 67px;
+    left: 187px;
+    position: absolute;
+}
+div#ChildContactNow {
+    width: 350px;
+    float: left;
+    padding: 20px 20px;
+}
+div#ChildContactNow h1{
+	font-family:arial;
+	color:white;
+	font-size:23px;
+}
+div#ChildContactNowCntent{
+	padding: 10px 0px 0px 0px;
+}
+div#ChildContactNowCntent a {
+    font-family: arial;
+    text-decoration: none;
+    font-size: 13px;
+    color: white;
+    display: block;
+    padding: 5px 0px 0px 0px;
+}
+div#ChildFlowUs{
+	width: 320px;
+	float: left;
+	padding: 20px 20px;
+}
+div#ChildFlowUs h1{
+    font-family:arial;
+    color:white;
+    font-size:23px;
+}
+
+#FlowusSubLinks{
+	list-style: none;
+}
+#FlowusSubLinks li{
+	float:left;
+}
+#FlowusSubLinks li a{
+	color: white;
+	display: block;
+	margin-right: 12px;
+	padding: 3px 5px;
+	border: 1px solid white;
+	border-radius: 50%;
+}
+#FlowusSubLinks li a:hover{	
+	background: white;
+	color:red;
+	
+}
+div#SubscribeText {
+    padding: 20px 0px 0px 0px;
+}
+
+div#FlowusLinks {
+    overflow: hidden;
+    padding: 10px 0px;
+}
+div#BottomLinksWraper {
+    position: absolute;
+    top: 150px;
+    width: 100%;
+    padding: 45px 0px;
+}
+div#BottomAboutUs {
+    width: 280px;
+    float: left;
+}
+div#BottomAboutUs h1{
+    color:white;
+    font-size:20px;
+}
+div#BottomAboutUs p{
+   color:white;
+   font-family:arial;
+   font-size:13px;
+   padding: 30px 70px 30px 0px;
+}
+#PrimarySocialLink{
+	list-style: none;
+	overflow: hidden;
+}
+#PrimarySocialLink li{
+	float:left;
+}
+#PrimarySocialLink li{
+	margin-right:5px;
+	display:block;
+}
+#PrimarySocialLink li a{
+    color:white;
+    transition:1s;
+}
+#PrimarySocialLink li a:hover{
+    color:red;
+}
+div#BottomContactUs{
+	width: 280px;
+	float: left;
+}
+div#BottomContactUs h1{
+	color:white;
+	font-size:20px;
+	padding-bottom: 15px;
+}
+#ElementIcon{
+	width: 15px;
+	float: left;
+	color: #ff6a00;
+	padding: 15px 10px 15px 0px;
+}
+#Elementtext p{
+	padding: 10px 25px 0px 0px;
+	font-family: arial;
+	float: right;
+	width: 230px;
+	color: white;
+	font-size: 12px;
+}
+div#ContactElement {
+    overflow: hidden;
+}
+#BottomUsefullLinks{
+	width: 248px;
+	padding: 0px 30px;
+	float: left;
+}
+#BottomUsefullLinks h1{
+	color:white;
+	font-size:20px;
+	padding-bottom: 10px;
+}
+#UsefullLinks{
+	list-style: none;
+}
+#UsefullLinks li a{
+	display:block;
+	padding: 8px 0px;
+	border-bottom: 1px white dashed;
+	color:white;
+	text-decoration:none;
+	font-family: arial;
+	font-size: 11px;
+	
+}
+#UsefullLinks li a:hover{
+	color: black;
+	padding-left:20px;
+	transition:all 1s;
+	background:white;
+}
+#BottomRecentPost{
+	width: 280px;
+	float: left;
+}
+#BottomRecentPost h1{
+	color:white;
+	padding-bottom: 10px;
+	font-size:20px;
+}
+div#RecentPost {
+    width: 32px;
+    text-align: center;
+    padding: 5px;
+    background: #696969;
+    float: left;
+    border-radius: 6px;
+}
+div#RecentPost h2{
+    color:white;
+    font-family: arial;
+    padding: 2px 0px;
+}
+div#RecentPost p{
+    color:white;
+    font-family:arial;
+    font-size: 8px;
+}
+div#PostContentComment {
+    overflow: hidden;
+    padding: 8px 0px;
+}
+div#RecentPostContent p{
+    font-family:arial;
+    font-size: 12px;
+    padding: 2px 0px;
+    color: white;
+}
+div#CommentIcon{
+
+}
+div#CommentIcon a{
+    width: 95px;
+    float: left;
+    display:block;
+    text-decoration: none;
+    color: white;
+    font-family: arial;
+    font-size: 12px;
+}
+div#RecentPostContent {float: right;width: 220px;padding: 0px 9px;}
+div#ContentWrper {
+    overflow: hidden;
+    padding: 10px 0px;
+}
+#CopyRightPanel{
+	padding:20px 0px;
+	border-top:1px solid white;
+	bottom: 0px;
+	position: absolute;
+	width: 100%;
+}
+#CopyRightContainer{
+	width: 1150px;
+	margin:auto;
+}
+#CopyRightId{
+	font-family:arial;
+	color:white;
+	width: 50%;
+	float: left;
+	font-size:13px;
+}
+div#CopyRightIdPraicecy {
+    width: 50%;
+    float: right;
+}
+#prymariPraicecy{
+	list-style: none;
+	float:right;
+}
+#prymariPraicecy li{
+	float:left;
+}
+#prymariPraicecy li a{
+	color:white;
+	display: block;
+	padding:5px;
+	margin-right:10px;
+	font-family:arial;
+	font-size:13px;
+	text-decoration:none;
+}
